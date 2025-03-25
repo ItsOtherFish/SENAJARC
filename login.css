@@ -1,0 +1,92 @@
+.principalRegistro{
+    background: linear-gradient(70deg ,rgb(108, 84, 155), rgb(98, 74, 146));
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    animation-name: color;
+animation-duration: 4s;
+animation-iteration-count: 1;
+animation-delay: 0s;
+    }
+    .registro{
+        border:1px solid black;
+background-color: rgb(158, 93, 219);
+width: 320px;
+height: 500px;
+
+opacity: 80%;
+    }
+    .logor{
+position: relative;
+left:118px;
+top: 15px;
+    }
+    .cajaTexto{
+width: 300px;
+height: 50px;
+font-size: 20PX;
+color: black;
+margin:5PX;
+border-top:none;
+border-left: none;
+border-right: none;
+outline: none;
+border-bottom: 2px solid rgb(195, 112, 216);
+
+    }
+    .botonRegistro{
+width: 200px;
+height:  30px;
+background-color: black;
+color: rgb(209, 160, 255);
+border-radius: 50px;
+cursor: pointer;
+padding: 5px;
+position: relative;
+left: 52px; }
+.botonRegistro:hover{
+    background-color: pink;
+}
+
+.textico{position: relative;
+left: 235px;
+top: -36px;
+}
+.checkbox{
+width: 30px;
+height: 30px;
+position: relative;
+}
+.Recuerda{
+position: relative;
+left: 40px;
+top: -27px;
+}
+
+@keyframes color{
+    0%{
+background: linear-gradient(70deg, rgb(129, 95, 196), rgb(0, 0, 0));
+
+    }
+    25%{
+background: linear-gradient(70deg, rgb(0, 0, 0), rgb(242, 153, 253));
+
+    }
+    50%{
+        background: linear-gradient(70deg, rgb(65, 48, 99), rgb(0, 0, 0));
+
+    }
+    100%{
+background: linear-gradient(70deg ,rgb(0, 0, 0), rgb(242, 153, 253));
+
+    }
+}
+    .registrovar{
+
+background-color: rgb(143, 63, 218);
+width: 320px;
+height: 60px;
+opacity: 80%;
+    }
